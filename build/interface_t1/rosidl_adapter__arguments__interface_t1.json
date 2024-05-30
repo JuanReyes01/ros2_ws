@@ -1,0 +1,6 @@
+{
+  "package_name": "interface_t1",
+  "non_idl_tuples": [
+    "/home/juan/ros2_ws/src/interface_t1:srv/MiServicio.srv"
+  ]
+}

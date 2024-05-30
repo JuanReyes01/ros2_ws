@@ -1,0 +1,55 @@
+running develop
+Removing /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my-taller1.egg-link (link to .)
+running egg_info
+writing ../../build/my_taller1/my_taller1.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_taller1/my_taller1.egg-info/dependency_links.txt
+writing entry points to ../../build/my_taller1/my_taller1.egg-info/entry_points.txt
+writing requirements to ../../build/my_taller1/my_taller1.egg-info/requires.txt
+writing top-level names to ../../build/my_taller1/my_taller1.egg-info/top_level.txt
+reading manifest file '../../build/my_taller1/my_taller1.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_taller1/my_taller1.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_taller1/Servicio.py -> /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1
+running install
+running install_lib
+creating /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/terminal.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/__init__.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/teleop.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/Servicio.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/h.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/laser_information.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/transforamated_laser_info.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/nodo1.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/MiCliente.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/keyboard_teleop_hold.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/laser_visualization.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/movement.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/nodo_movement.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/terminal.py to terminal.cpython-310.pyc
+byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/teleop.py to teleop.cpython-310.pyc
+byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/Servicio.py to Servicio.cpython-310.pyc
+byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/h.py to h.cpython-310.pyc
+byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/laser_information.py to laser_information.cpython-310.pyc
+byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/transforamated_laser_info.py to transforamated_laser_info.cpython-310.pyc
+byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/nodo1.py to nodo1.cpython-310.pyc
+byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/MiCliente.py to MiCliente.cpython-310.pyc
+byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/keyboard_teleop_hold.py to keyboard_teleop_hold.cpython-310.pyc
+byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/laser_visualization.py to laser_visualization.cpython-310.pyc
+byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/movement.py to movement.cpython-310.pyc
+byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/nodo_movement.py to nodo_movement.cpython-310.pyc
+running install_data
+copying resource/my_taller1 -> /home/juan/ros2_ws/install/my_taller1/share/ament_index/resource_index/packages
+copying package.xml -> /home/juan/ros2_ws/install/my_taller1/share/my_taller1
+running install_egg_info
+Copying ../../build/my_taller1/my_taller1.egg-info to /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client_p1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+Installing laser_info script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+Installing laser_visualization script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+Installing nodo1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+Installing serviciot_p1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+Installing turtle_bot_teleop script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+writing list of installed files to '/home/juan/ros2_ws/build/my_taller1/install.log'

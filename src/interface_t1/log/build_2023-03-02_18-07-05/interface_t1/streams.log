@@ -1,0 +1,20 @@
+[0.015s] Invoking command in '/home/yesid/Robotica/src/interface_t1/build/interface_t1': CMAKE_PREFIX_PATH=/home/yesid/Robotica/install/taller1:/home/yesid/Robotica/install/my_taller1:/opt/ros/humble /usr/bin/cmake --build /home/yesid/Robotica/src/interface_t1/build/interface_t1 -- -j8 -l8
+[0.052s] Invoked command in '/home/yesid/Robotica/src/interface_t1/build/interface_t1' returned '0': CMAKE_PREFIX_PATH=/home/yesid/Robotica/install/taller1:/home/yesid/Robotica/install/my_taller1:/opt/ros/humble /usr/bin/cmake --build /home/yesid/Robotica/src/interface_t1/build/interface_t1 -- -j8 -l8
+[0.074s] Invoking command in '/home/yesid/Robotica/src/interface_t1/build/interface_t1': CMAKE_PREFIX_PATH=/home/yesid/Robotica/install/taller1:/home/yesid/Robotica/install/my_taller1:/opt/ros/humble /usr/bin/cmake --install /home/yesid/Robotica/src/interface_t1/build/interface_t1
+[0.079s] -- Install configuration: ""
+[0.079s] -- Up-to-date: /home/yesid/Robotica/src/interface_t1/install/interface_t1/share/ament_index/resource_index/package_run_dependencies/interface_t1
+[0.079s] -- Up-to-date: /home/yesid/Robotica/src/interface_t1/install/interface_t1/share/ament_index/resource_index/parent_prefix_path/interface_t1
+[0.079s] -- Up-to-date: /home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/environment/ament_prefix_path.sh
+[0.079s] -- Up-to-date: /home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/environment/ament_prefix_path.dsv
+[0.079s] -- Up-to-date: /home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/environment/path.sh
+[0.079s] -- Up-to-date: /home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/environment/path.dsv
+[0.079s] -- Up-to-date: /home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/local_setup.bash
+[0.080s] -- Up-to-date: /home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/local_setup.sh
+[0.080s] -- Up-to-date: /home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/local_setup.zsh
+[0.080s] -- Up-to-date: /home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/local_setup.dsv
+[0.080s] -- Installing: /home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/package.dsv
+[0.080s] -- Up-to-date: /home/yesid/Robotica/src/interface_t1/install/interface_t1/share/ament_index/resource_index/packages/interface_t1
+[0.080s] -- Up-to-date: /home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/cmake/interface_t1Config.cmake
+[0.080s] -- Up-to-date: /home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/cmake/interface_t1Config-version.cmake
+[0.080s] -- Up-to-date: /home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/package.xml
+[0.081s] Invoked command in '/home/yesid/Robotica/src/interface_t1/build/interface_t1' returned '0': CMAKE_PREFIX_PATH=/home/yesid/Robotica/install/taller1:/home/yesid/Robotica/install/my_taller1:/opt/ros/humble /usr/bin/cmake --install /home/yesid/Robotica/src/interface_t1/build/interface_t1

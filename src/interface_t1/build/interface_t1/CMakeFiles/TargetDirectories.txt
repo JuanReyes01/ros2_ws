@@ -1,0 +1,9 @@
+/home/yesid/Robotica/src/interface_t1/build/interface_t1/CMakeFiles/uninstall.dir
+/home/yesid/Robotica/src/interface_t1/build/interface_t1/CMakeFiles/interface_t1_uninstall.dir
+/home/yesid/Robotica/src/interface_t1/build/interface_t1/CMakeFiles/test.dir
+/home/yesid/Robotica/src/interface_t1/build/interface_t1/CMakeFiles/edit_cache.dir
+/home/yesid/Robotica/src/interface_t1/build/interface_t1/CMakeFiles/rebuild_cache.dir
+/home/yesid/Robotica/src/interface_t1/build/interface_t1/CMakeFiles/list_install_components.dir
+/home/yesid/Robotica/src/interface_t1/build/interface_t1/CMakeFiles/install.dir
+/home/yesid/Robotica/src/interface_t1/build/interface_t1/CMakeFiles/install/local.dir
+/home/yesid/Robotica/src/interface_t1/build/interface_t1/CMakeFiles/install/strip.dir

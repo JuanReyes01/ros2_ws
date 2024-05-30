@@ -1,0 +1,29 @@
+[0.405s] Invoking command in '/home/juan/ros2_ws/src/my_taller1': PYTHONPATH=/home/juan/ros2_ws/build/my_taller1/prefix_override:/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_taller1 build --build-base /home/juan/ros2_ws/build/my_taller1/build install --record /home/juan/ros2_ws/build/my_taller1/install.log --single-version-externally-managed install_data
+[0.554s] running egg_info
+[0.554s] writing ../../build/my_taller1/my_taller1.egg-info/PKG-INFO
+[0.555s] writing dependency_links to ../../build/my_taller1/my_taller1.egg-info/dependency_links.txt
+[0.555s] writing entry points to ../../build/my_taller1/my_taller1.egg-info/entry_points.txt
+[0.555s] writing requirements to ../../build/my_taller1/my_taller1.egg-info/requires.txt
+[0.555s] writing top-level names to ../../build/my_taller1/my_taller1.egg-info/top_level.txt
+[0.556s] reading manifest file '../../build/my_taller1/my_taller1.egg-info/SOURCES.txt'
+[0.556s] writing manifest file '../../build/my_taller1/my_taller1.egg-info/SOURCES.txt'
+[0.556s] running build
+[0.557s] running build_py
+[0.557s] copying my_taller1/Servicio.py -> /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1
+[0.557s] running install
+[0.558s] running install_lib
+[0.558s] copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/Servicio.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+[0.559s] byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/Servicio.py to Servicio.cpython-310.pyc
+[0.560s] running install_data
+[0.560s] running install_egg_info
+[0.562s] removing '/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.562s] Copying ../../build/my_taller1/my_taller1.egg-info to /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1-0.0.0-py3.10.egg-info
+[0.562s] running install_scripts
+[0.577s] Installing client_p1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.577s] Installing laser_info script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.577s] Installing laser_visualization script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.578s] Installing nodo1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.578s] Installing serviciot_p1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.578s] Installing turtle_bot_teleop script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.578s] writing list of installed files to '/home/juan/ros2_ws/build/my_taller1/install.log'
+[0.593s] Invoked command in '/home/juan/ros2_ws/src/my_taller1' returned '0': PYTHONPATH=/home/juan/ros2_ws/build/my_taller1/prefix_override:/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_taller1 build --build-base /home/juan/ros2_ws/build/my_taller1/build install --record /home/juan/ros2_ws/build/my_taller1/install.log --single-version-externally-managed install_data

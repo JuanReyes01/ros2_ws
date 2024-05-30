@@ -1,0 +1,61 @@
+[0.378s] Invoking command in '/home/juan/ros2_ws/build/my_taller1': PYTHONPATH=/home/juan/ros2_ws/build/my_taller1/prefix_override:/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/juan/ros2_ws/build/my_taller1/build
+[0.530s] running develop
+[0.531s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.531s]   warnings.warn(
+[0.619s] Removing /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my-taller1.egg-link (link to .)
+[0.638s] Invoked command in '/home/juan/ros2_ws/build/my_taller1' returned '0': PYTHONPATH=/home/juan/ros2_ws/build/my_taller1/prefix_override:/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/juan/ros2_ws/build/my_taller1/build
+[0.639s] Invoking command in '/home/juan/ros2_ws/src/my_taller1': PYTHONPATH=/home/juan/ros2_ws/build/my_taller1/prefix_override:/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_taller1 build --build-base /home/juan/ros2_ws/build/my_taller1/build install --record /home/juan/ros2_ws/build/my_taller1/install.log --single-version-externally-managed install_data --force
+[0.794s] running egg_info
+[0.794s] writing ../../build/my_taller1/my_taller1.egg-info/PKG-INFO
+[0.794s] writing dependency_links to ../../build/my_taller1/my_taller1.egg-info/dependency_links.txt
+[0.794s] writing entry points to ../../build/my_taller1/my_taller1.egg-info/entry_points.txt
+[0.794s] writing requirements to ../../build/my_taller1/my_taller1.egg-info/requires.txt
+[0.794s] writing top-level names to ../../build/my_taller1/my_taller1.egg-info/top_level.txt
+[0.796s] reading manifest file '../../build/my_taller1/my_taller1.egg-info/SOURCES.txt'
+[0.796s] writing manifest file '../../build/my_taller1/my_taller1.egg-info/SOURCES.txt'
+[0.796s] running build
+[0.797s] running build_py
+[0.797s] copying my_taller1/Servicio.py -> /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1
+[0.797s] running install
+[0.797s] running install_lib
+[0.798s] creating /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+[0.798s] copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/terminal.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+[0.798s] copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/__init__.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+[0.798s] copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/teleop.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+[0.798s] copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/Servicio.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+[0.798s] copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/h.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+[0.798s] copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/laser_information.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+[0.798s] copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/transforamated_laser_info.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+[0.798s] copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/nodo1.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+[0.798s] copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/MiCliente.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+[0.798s] copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/keyboard_teleop_hold.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+[0.798s] copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/laser_visualization.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+[0.798s] copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/movement.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+[0.798s] copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/nodo_movement.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+[0.798s] byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/terminal.py to terminal.cpython-310.pyc
+[0.799s] byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/__init__.py to __init__.cpython-310.pyc
+[0.799s] byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/teleop.py to teleop.cpython-310.pyc
+[0.800s] byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/Servicio.py to Servicio.cpython-310.pyc
+[0.800s] byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/h.py to h.cpython-310.pyc
+[0.800s] byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/laser_information.py to laser_information.cpython-310.pyc
+[0.801s] byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/transforamated_laser_info.py to transforamated_laser_info.cpython-310.pyc
+[0.804s] byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/nodo1.py to nodo1.cpython-310.pyc
+[0.804s] byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/MiCliente.py to MiCliente.cpython-310.pyc
+[0.805s] byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/keyboard_teleop_hold.py to keyboard_teleop_hold.cpython-310.pyc
+[0.805s] byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/laser_visualization.py to laser_visualization.cpython-310.pyc
+[0.806s] byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/movement.py to movement.cpython-310.pyc
+[0.806s] byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/nodo_movement.py to nodo_movement.cpython-310.pyc
+[0.806s] running install_data
+[0.806s] copying resource/my_taller1 -> /home/juan/ros2_ws/install/my_taller1/share/ament_index/resource_index/packages
+[0.806s] copying package.xml -> /home/juan/ros2_ws/install/my_taller1/share/my_taller1
+[0.806s] running install_egg_info
+[0.807s] Copying ../../build/my_taller1/my_taller1.egg-info to /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1-0.0.0-py3.10.egg-info
+[0.808s] running install_scripts
+[0.821s] Installing client_p1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.822s] Installing laser_info script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.822s] Installing laser_visualization script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.822s] Installing nodo1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.822s] Installing serviciot_p1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.822s] Installing turtle_bot_teleop script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.822s] writing list of installed files to '/home/juan/ros2_ws/build/my_taller1/install.log'
+[0.839s] Invoked command in '/home/juan/ros2_ws/src/my_taller1' returned '0': PYTHONPATH=/home/juan/ros2_ws/build/my_taller1/prefix_override:/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_taller1 build --build-base /home/juan/ros2_ws/build/my_taller1/build install --record /home/juan/ros2_ws/build/my_taller1/install.log --single-version-externally-managed install_data --force

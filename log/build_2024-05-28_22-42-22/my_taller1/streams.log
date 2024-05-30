@@ -1,0 +1,26 @@
+[0.355s] Invoking command in '/home/juan/ros2_ws/build/my_taller1': PYTHONPATH=/home/juan/ros2_ws/build/my_taller1/prefix_override:/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/ros2_ws/build/my_taller1/build --no-deps symlink_data --force
+[0.509s] running develop
+[0.517s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.517s]   warnings.warn(
+[0.602s] running egg_info
+[0.602s] writing my_taller1.egg-info/PKG-INFO
+[0.602s] writing dependency_links to my_taller1.egg-info/dependency_links.txt
+[0.602s] writing entry points to my_taller1.egg-info/entry_points.txt
+[0.602s] writing requirements to my_taller1.egg-info/requires.txt
+[0.602s] writing top-level names to my_taller1.egg-info/top_level.txt
+[0.603s] reading manifest file 'my_taller1.egg-info/SOURCES.txt'
+[0.604s] writing manifest file 'my_taller1.egg-info/SOURCES.txt'
+[0.605s] running build_ext
+[0.605s] Creating /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my-taller1.egg-link (link to .)
+[0.605s] Installing client_p1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.605s] Installing laser_info script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.605s] Installing laser_visualization script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.605s] Installing nodo1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.605s] Installing serviciot_p1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.605s] Installing turtle_bot_teleop script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+[0.605s] 
+[0.606s] Installed /home/juan/ros2_ws/build/my_taller1
+[0.606s] running symlink_data
+[0.606s] symbolically linking /home/juan/ros2_ws/build/my_taller1/resource/my_taller1 -> /home/juan/ros2_ws/install/my_taller1/share/ament_index/resource_index/packages
+[0.606s] symbolically linking /home/juan/ros2_ws/build/my_taller1/package.xml -> /home/juan/ros2_ws/install/my_taller1/share/my_taller1
+[0.621s] Invoked command in '/home/juan/ros2_ws/build/my_taller1' returned '0': PYTHONPATH=/home/juan/ros2_ws/build/my_taller1/prefix_override:/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/ros2_ws/build/my_taller1/build --no-deps symlink_data --force

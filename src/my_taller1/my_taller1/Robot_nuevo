@@ -1,0 +1,139 @@
+function sysCall_init() 
+    l_motor_handle=sim.getObjectHandle('Pioneer_p3dx_leftMotor')
+    r_motor_handle=sim.getObjectHandle('Pioneer_p3dx_rightMotor')  
+    robot_pose=sim.getObjectHandle('robot_pose')
+    hokuyo=sim.getObjectHandle('fastHokuyo')
+    --path=sim.getObjectHandle('Path')
+    pose=updateRobotPose()
+
+    wheel_radius=0.195/2
+    b=0.1655
+    vref=0.35
+    e=0.24
+    k=1
+    
+    --sim.setPathTargetNominalVelocity(path,vref) -- in m/s
+    --ref_point=sim.getObjectHandle('ref_point')
+    
+    laserPoints={}
+    rosInterfacePresent=simROS2
+
+    -- Prepare the float32 publisher and subscriber (we subscribe to the topic we advertise):
+    if rosInterfacePresent then
+        pub_simTime=simROS2.createPublisher('/simulationTime','std_msgs/msg/Float32')
+        posTurtlebotPub = simROS2.createPublisher('/turtlebot_position','geometry_msgs/msg/Twist')
+        pub_orientation=simROS2.createPublisher('/turtlebot_orientation','std_msgs/msg/Float32')
+        subs_vel=simROS2.createSubscription('/turtlebot_cmdVel','geometry_msgs/msg/Twist','subs_vel_callback')
+        subs_vel_wheels=simROS2.createSubscription('/turtlebot_wheelsVel','std_msgs/msg/Float32MultiArray','wheelsVel_callback')
+        laserDataPub = simROS2.createPublisher('/hokuyo_laser_data', 'std_msgs/msg/Float32MultiArray')
+    end
+
+    theta2 = 0.0
+    theta1 = 0.0
+    theta0 = 0.0
+
+
+end
+function sysCall_cleanup()
+    -- Following not really needed in a simulation script (i.e. automatically shutdown at simulation end):
+    if rosInterfacePresent then
+        simROS2.shutdownPublisher(pub_simTime)
+        simROS2.shutdownPublisher(pub_orientation)
+        simROS2.shutdownSubscription(subs_vel)
+    end
+end
+function wheelsVel_callback(msg)
+    speed_left = msg.data[1]
+    speed_right = msg.data[2]
+    sim.setJointTargetVelocity(l_motor_handle,speed_left)
+    sim.setJointTargetVelocity(r_motor_handle,speed_right)
+end
+function subs_vel_callback(msg)
+    local vel_x=msg.linear.x
+    local omega=msg.angular.z
+    sim.addLog(sim.verbosity_scriptinfos,'subscriber receiver following Linear Vel: '..vel_x)
+    sim.addLog(sim.verbosity_scriptinfos,'subscriber receiver following Rotation Vel: '..omega)
+    local wheel_radius = 0.195/2
+    local wheel_separation = 0.1655
+    local speed_left = (vel_x - omega * wheel_separation/2)/wheel_radius
+    local speed_right = (vel_x + omega * wheel_separation/2)/wheel_radius
+    sim.setJointTargetVelocity(l_motor_handle,speed_left)
+    sim.setJointTargetVelocity(r_motor_handle,speed_right)    
+end
+if not prevYaw then
+    prevYaw = 0 -- Inicializar prevYaw si no está definido
+end
+
+function sysCall_actuation()
+    eulerAngles = sim.getObjectOrientation(robot_pose, -1)
+    local yaw, pitch, roll = sim.alphaBetaGammaToYawPitchRoll(eulerAngles[1], eulerAngles[2], eulerAngles[3])
+
+    -- Ajustar yaw en 90 grados y cambiar la dirección si es necesario
+    yaw = yaw-2*math.pi  -- Ajustar por 90 grados
+    if yaw > 2 * math.pi then -- Normalizar si el yaw excede 2?
+        yaw = yaw - 2 * math.pi
+    end
+
+    -- Cambiar la dirección (invertir si es necesario)
+    yaw = -yaw -- Invertir dirección si es requerido
+
+    -- Manejar la continuidad de 0 a 2?
+    if yaw < 0 then
+        yaw = yaw + 2 * math.pi
+    end
+
+    -- Otro código...
+    if rosInterfacePresent then
+        local p = sim.getObjectPosition(robot_pose, -1)
+        local o = sim.getObjectOrientation(robot_pose, -1)
+        local d = {linear = {x = p[1], y = p[2], z = p[3]}, angular = {x = o[1], y = o[2], z = o[3]}}
+        simROS2.publish(posTurtlebotPub, d)
+        simROS2.publish(pub_simTime, {data = sim.getSimulationTime()})
+        simROS2.publish(pub_orientation, {data = yaw})
+    end
+end
+
+
+
+function sysCall_sensing()
+    laserPoints=getLaserPoints()
+    pose=updateRobotPose()
+end
+
+function getLaserPoints()
+    local laserScan
+    local laserPts={}
+    local j=1
+    laserScan=sim.callScriptFunction('getMeasuredData@fastHokuyo',sim.scripttype_childscript)
+    for i=1,#laserScan,3 do
+        laserPts[j]={laserScan[i],laserScan[i+1]}
+        j=j+1
+    end
+
+        -- Prepare the message
+    if rosInterfacePresent then
+        local msg = {
+            layout = {
+                dim = {label = 'laserPoints', size = #laserPts, stride = #laserPts * 2},
+                data_offset = 0
+            },
+            data = {}
+        }
+        for i, v in ipairs(laserPts) do
+            table.insert(msg.data, v[1])
+            table.insert(msg.data, v[2])
+        end
+        simROS2.publish(laserDataPub, msg)
+    end
+    return laserPts
+end
+
+
+function updateRobotPose()
+    local pose
+    position=sim.getObjectPosition(robot_pose,-1)
+    orientation=sim.getObjectOrientation(robot_pose,-1)
+    pose={position[1],position[2],orientation[3]}
+    return pose
+end
+

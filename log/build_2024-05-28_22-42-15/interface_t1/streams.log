@@ -1,0 +1,193 @@
+[0.007s] Invoking command in '/home/juan/ros2_ws/build/interface_t1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/ros2_ws/install/my_taller1:/home/juan/Robotica_proyecto/install/my_taller1:/opt/ros/humble /usr/bin/cmake --build /home/juan/ros2_ws/build/interface_t1 --clean-first -- -j20 -l20
+[0.202s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.289s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.294s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.310s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.311s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.315s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.333s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.408s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.595s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.861s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.971s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.989s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.010s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.011s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.011s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.038s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.047s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.048s] -- Configured cppcheck include dirs: 
+[1.048s] -- Configured cppcheck exclude dirs and/or files: 
+[1.048s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.050s] -- Added test 'lint_cmake' to check CMake code style
+[1.050s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.054s] -- Added test 'uncrustify' to check C / C++ code style
+[1.054s] -- Configured uncrustify additional arguments: 
+[1.055s] -- Added test 'xmllint' to check XML markup files
+[1.056s] -- Configuring done
+[1.074s] -- Generating done
+[1.075s] -- Build files have been written to: /home/juan/ros2_ws/build/interface_t1
+[1.092s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.098s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.102s] [  6%] Built target ament_cmake_python_symlink_interface_t1
+[1.242s] running egg_info
+[1.242s] creating interface_t1.egg-info
+[1.243s] writing interface_t1.egg-info/PKG-INFO
+[1.243s] writing dependency_links to interface_t1.egg-info/dependency_links.txt
+[1.243s] writing top-level names to interface_t1.egg-info/top_level.txt
+[1.243s] writing manifest file 'interface_t1.egg-info/SOURCES.txt'
+[1.244s] reading manifest file 'interface_t1.egg-info/SOURCES.txt'
+[1.244s] writing manifest file 'interface_t1.egg-info/SOURCES.txt'
+[1.261s] [  6%] Built target ament_cmake_python_build_interface_t1_egg
+[1.263s] [  6%] Built target interface_t1__cpp
+[1.264s] [  9%] [32mBuilding C object CMakeFiles/interface_t1__rosidl_generator_c.dir/rosidl_generator_c/interface_t1/srv/detail/mi_servicio__functions.c.o[0m
+[1.269s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.269s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.269s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.301s] [ 22%] [32m[1mLinking C shared library libinterface_t1__rosidl_generator_c.so[0m
+[1.325s] [ 22%] Built target interface_t1__rosidl_generator_c
+[1.332s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.332s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.334s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.415s] [ 35%] [32mBuilding CXX object CMakeFiles/interface_t1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_t1/srv/mi_servicio__type_support.cpp.o[0m
+[1.427s] [ 38%] [32mBuilding CXX object CMakeFiles/interface_t1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_t1/srv/detail/mi_servicio__type_support.cpp.o[0m
+[1.435s] [ 41%] [32mBuilding CXX object CMakeFiles/interface_t1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_t1/srv/detail/dds_fastrtps/mi_servicio__type_support.cpp.o[0m
+[1.478s] [ 45%] [32mBuilding CXX object CMakeFiles/interface_t1__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_t1/srv/mi_servicio__type_support.cpp.o[0m
+[1.496s] [ 48%] [32mBuilding C object CMakeFiles/interface_t1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_t1/srv/detail/mi_servicio__type_support.c.o[0m
+[1.498s] [ 51%] [32mBuilding CXX object CMakeFiles/interface_t1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_t1/srv/detail/mi_servicio__type_support_c.cpp.o[0m
+[1.508s] [ 54%] [32m[1mLinking CXX shared library libinterface_t1__rosidl_typesupport_c.so[0m
+[1.518s] [ 58%] [32m[1mLinking C shared library libinterface_t1__rosidl_typesupport_introspection_c.so[0m
+[1.536s] [ 58%] Built target interface_t1__rosidl_typesupport_c
+[1.538s] [ 58%] Built target interface_t1__rosidl_typesupport_introspection_c
+[1.619s] [ 61%] [32m[1mLinking CXX shared library libinterface_t1__rosidl_typesupport_cpp.so[0m
+[1.646s] [ 61%] Built target interface_t1__rosidl_typesupport_cpp
+[1.677s] [ 64%] [32m[1mLinking CXX shared library libinterface_t1__rosidl_typesupport_introspection_cpp.so[0m
+[1.698s] [ 67%] [32m[1mLinking CXX shared library libinterface_t1__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.700s] [ 70%] [32m[1mLinking CXX shared library libinterface_t1__rosidl_typesupport_fastrtps_c.so[0m
+[1.717s] [ 70%] Built target interface_t1__rosidl_typesupport_introspection_cpp
+[1.745s] [ 70%] Built target interface_t1__rosidl_typesupport_fastrtps_cpp
+[1.747s] [ 70%] Built target interface_t1__rosidl_typesupport_fastrtps_c
+[1.760s] [ 70%] Built target interface_t1
+[1.775s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.998s] [ 74%] Built target interface_t1__py
+[2.011s] [ 77%] [32mBuilding C object CMakeFiles/interface_t1__rosidl_generator_py.dir/rosidl_generator_py/interface_t1/srv/_mi_servicio_s.c.o[0m
+[2.100s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/interface_t1/libinterface_t1__rosidl_generator_py.so[0m
+[2.131s] [ 80%] Built target interface_t1__rosidl_generator_py
+[2.144s] [ 83%] [32mBuilding C object CMakeFiles/interface_t1__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface_t1/_interface_t1_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.144s] [ 87%] [32mBuilding C object CMakeFiles/interface_t1__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface_t1/_interface_t1_s.ep.rosidl_typesupport_c.c.o[0m
+[2.144s] [ 90%] [32mBuilding C object CMakeFiles/interface_t1__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface_t1/_interface_t1_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.205s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interface_t1/interface_t1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.205s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interface_t1/interface_t1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.206s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interface_t1/interface_t1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.230s] [100%] Built target interface_t1__rosidl_typesupport_c__pyext
+[2.230s] [100%] Built target interface_t1__rosidl_typesupport_fastrtps_c__pyext
+[2.231s] [100%] Built target interface_t1__rosidl_typesupport_introspection_c__pyext
+[2.239s] Invoked command in '/home/juan/ros2_ws/build/interface_t1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/ros2_ws/install/my_taller1:/home/juan/Robotica_proyecto/install/my_taller1:/opt/ros/humble /usr/bin/cmake --build /home/juan/ros2_ws/build/interface_t1 --clean-first -- -j20 -l20
+[2.313s] Invoking command in '/home/juan/ros2_ws/build/interface_t1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/ros2_ws/install/my_taller1:/home/juan/Robotica_proyecto/install/my_taller1:/opt/ros/humble /usr/bin/cmake --install /home/juan/ros2_ws/build/interface_t1
+[2.321s] -- Install configuration: ""
+[2.322s] -- Execute custom install script
+[2.322s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/ament_index/resource_index/rosidl_interfaces/interface_t1
+[2.331s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg/rosidl_generator_c__visibility_control.h
+[2.341s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__functions.h
+[2.350s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__struct.h
+[2.359s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__type_support.h
+[2.368s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/mi_servicio.h
+[2.377s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/library_path.sh
+[2.386s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/library_path.dsv
+[2.396s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.404s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__rosidl_typesupport_fastrtps_c.h
+[2.414s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__builder.hpp
+[2.423s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__struct.hpp
+[2.432s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__traits.hpp
+[2.441s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/mi_servicio.hpp
+[2.451s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.459s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__rosidl_typesupport_fastrtps_cpp.hpp
+[2.468s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.477s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__rosidl_typesupport_introspection_c.h
+[2.485s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__rosidl_typesupport_introspection_cpp.hpp
+[2.493s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/pythonpath.sh
+[2.502s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/pythonpath.dsv
+[2.510s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1-0.0.0-py3.10.egg-info/PKG-INFO
+[2.519s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.528s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.537s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1-0.0.0-py3.10.egg-info/top_level.txt
+[2.547s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/__init__.py
+[2.556s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/_interface_t1_s.ep.rosidl_typesupport_c.c
+[2.565s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/_interface_t1_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.574s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/_interface_t1_s.ep.rosidl_typesupport_introspection_c.c
+[2.583s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.592s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.601s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.610s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/libinterface_t1__rosidl_generator_py.so
+[2.620s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv/__init__.py
+[2.629s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv/_mi_servicio.py
+[2.638s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv/_mi_servicio_s.c
+[2.647s] -- Up-to-date symlink: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.647s] -- Up-to-date symlink: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.647s] -- Up-to-date symlink: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.647s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/srv/MiServicio.idl
+[2.657s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/srv/MiServicio.srv
+[2.666s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/srv/MiServicio_Request.msg
+[2.675s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/srv/MiServicio_Response.msg
+[2.684s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/ament_index/resource_index/package_run_dependencies/interface_t1
+[2.693s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/ament_index/resource_index/parent_prefix_path/interface_t1
+[2.701s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/ament_prefix_path.sh
+[2.707s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/ament_prefix_path.dsv
+[2.715s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/path.sh
+[2.722s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/path.dsv
+[2.730s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/local_setup.bash
+[2.737s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/local_setup.sh
+[2.745s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/local_setup.zsh
+[2.753s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/local_setup.dsv
+[2.761s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/package.dsv
+[2.769s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/ament_index/resource_index/packages/interface_t1
+[2.779s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/rosidl_cmake-extras.cmake
+[2.788s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.797s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.807s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/ament_cmake_export_libraries-extras.cmake
+[2.817s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/ament_cmake_export_targets-extras.cmake
+[2.826s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.836s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.845s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1Config.cmake
+[2.855s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1Config-version.cmake
+[2.864s] -- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/package.xml
+[2.872s] -- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_generator_c.so
+[2.872s] -- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_generator_c.so" to ""
+[2.873s] -- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_fastrtps_c.so
+[2.873s] -- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_fastrtps_c.so" to ""
+[2.873s] -- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_fastrtps_cpp.so
+[2.873s] -- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.873s] -- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_introspection_c.so
+[2.874s] -- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_introspection_c.so" to ""
+[2.874s] -- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_c.so
+[2.874s] -- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_c.so" to ""
+[2.874s] -- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_introspection_cpp.so
+[2.875s] -- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_introspection_cpp.so" to ""
+[2.875s] -- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_cpp.so
+[2.875s] -- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_cpp.so" to ""
+[2.904s] Listing '/home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1'...
+[2.904s] Compiling '/home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/__init__.py'...
+[2.904s] Listing '/home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv'...
+[2.904s] Compiling '/home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv/__init__.py'...
+[2.904s] Compiling '/home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv/_mi_servicio.py'...
+[2.907s] -- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_generator_py.so
+[2.907s] -- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_generator_py.so" to ""
+[2.907s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_generator_cExport.cmake
+[2.907s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_generator_cExport-noconfig.cmake
+[2.907s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_typesupport_fastrtps_cExport.cmake
+[2.907s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.907s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_generator_cppExport.cmake
+[2.907s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.907s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.907s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_introspection_cExport.cmake
+[2.907s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.907s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_cExport.cmake
+[2.908s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_cExport-noconfig.cmake
+[2.908s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_introspection_cppExport.cmake
+[2.908s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.908s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_cppExport.cmake
+[2.908s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_cppExport-noconfig.cmake
+[2.908s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_generator_pyExport.cmake
+[2.908s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_generator_pyExport-noconfig.cmake
+[2.910s] Invoked command in '/home/juan/ros2_ws/build/interface_t1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/ros2_ws/install/my_taller1:/home/juan/Robotica_proyecto/install/my_taller1:/opt/ros/humble /usr/bin/cmake --install /home/juan/ros2_ws/build/interface_t1

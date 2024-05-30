@@ -1,0 +1,15 @@
+/home/yesid/Robotica/src/interface_t1/install/interface_t1/share/ament_index/resource_index/package_run_dependencies/interface_t1
+/home/yesid/Robotica/src/interface_t1/install/interface_t1/share/ament_index/resource_index/parent_prefix_path/interface_t1
+/home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/environment/ament_prefix_path.sh
+/home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/environment/ament_prefix_path.dsv
+/home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/environment/path.sh
+/home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/environment/path.dsv
+/home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/local_setup.bash
+/home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/local_setup.sh
+/home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/local_setup.zsh
+/home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/local_setup.dsv
+/home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/package.dsv
+/home/yesid/Robotica/src/interface_t1/install/interface_t1/share/ament_index/resource_index/packages/interface_t1
+/home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/cmake/interface_t1Config.cmake
+/home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/cmake/interface_t1Config-version.cmake
+/home/yesid/Robotica/src/interface_t1/install/interface_t1/share/interface_t1/package.xml

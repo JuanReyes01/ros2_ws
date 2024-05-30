@@ -1,0 +1,148 @@
+[0.006s] Invoking command in '/home/juan/ros2_ws/build/interface_t1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotica_proyecto/install/my_taller1:/opt/ros/humble /usr/bin/cmake --build /home/juan/ros2_ws/build/interface_t1 -- -j20 -l20
+[0.039s] [  3%] Built target interface_t1__cpp
+[0.041s] [ 12%] Built target interface_t1__rosidl_generator_c
+[0.048s] [ 12%] Built target ament_cmake_python_copy_interface_t1
+[0.059s] [ 22%] Built target interface_t1__rosidl_typesupport_introspection_cpp
+[0.062s] [ 41%] Built target interface_t1__rosidl_typesupport_c
+[0.062s] [ 41%] Built target interface_t1__rosidl_typesupport_fastrtps_cpp
+[0.063s] [ 51%] Built target interface_t1__rosidl_typesupport_fastrtps_c
+[0.063s] [ 61%] Built target interface_t1__rosidl_typesupport_introspection_c
+[0.066s] [ 70%] Built target interface_t1__rosidl_typesupport_cpp
+[0.080s] [ 70%] Built target interface_t1
+[0.094s] [ 74%] Built target interface_t1__py
+[0.109s] [ 80%] Built target interface_t1__rosidl_generator_py
+[0.123s] [ 93%] Built target interface_t1__rosidl_typesupport_introspection_c__pyext
+[0.124s] [ 93%] Built target interface_t1__rosidl_typesupport_fastrtps_c__pyext
+[0.124s] [100%] Built target interface_t1__rosidl_typesupport_c__pyext
+[0.198s] running egg_info
+[0.198s] writing interface_t1.egg-info/PKG-INFO
+[0.198s] writing dependency_links to interface_t1.egg-info/dependency_links.txt
+[0.198s] writing top-level names to interface_t1.egg-info/top_level.txt
+[0.199s] reading manifest file 'interface_t1.egg-info/SOURCES.txt'
+[0.200s] writing manifest file 'interface_t1.egg-info/SOURCES.txt'
+[0.217s] [100%] Built target ament_cmake_python_build_interface_t1_egg
+[0.226s] Invoked command in '/home/juan/ros2_ws/build/interface_t1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotica_proyecto/install/my_taller1:/opt/ros/humble /usr/bin/cmake --build /home/juan/ros2_ws/build/interface_t1 -- -j20 -l20
+[0.273s] Invoking command in '/home/juan/ros2_ws/build/interface_t1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotica_proyecto/install/my_taller1:/opt/ros/humble /usr/bin/cmake --install /home/juan/ros2_ws/build/interface_t1
+[0.280s] -- Install configuration: ""
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/ament_index/resource_index/rosidl_interfaces/interface_t1
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/mi_servicio.h
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__functions.c
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__type_support.h
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__struct.h
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__functions.h
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg/rosidl_generator_c__visibility_control.h
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/library_path.sh
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/library_path.dsv
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_generator_c.so
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__rosidl_typesupport_fastrtps_c.h
+[0.280s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_fastrtps_c.so
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/mi_servicio.hpp
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__struct.hpp
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__traits.hpp
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__builder.hpp
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__rosidl_typesupport_fastrtps_cpp.hpp
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/dds_fastrtps
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_fastrtps_cpp.so
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__rosidl_typesupport_introspection_c.h
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__type_support.c
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg
+[0.281s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.282s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_introspection_c.so
+[0.282s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_c.so
+[0.282s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1
+[0.282s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv
+[0.282s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail
+[0.282s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__rosidl_typesupport_introspection_cpp.hpp
+[0.282s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__type_support.cpp
+[0.282s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_introspection_cpp.so
+[0.282s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_cpp.so
+[0.282s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/pythonpath.sh
+[0.282s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/pythonpath.dsv
+[0.282s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1-0.0.0-py3.10.egg-info
+[0.282s] -- Installing: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.282s] -- Installing: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1-0.0.0-py3.10.egg-info/top_level.txt
+[0.282s] -- Installing: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1-0.0.0-py3.10.egg-info/PKG-INFO
+[0.282s] -- Installing: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.282s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1
+[0.282s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/__init__.py
+[0.282s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/libinterface_t1__rosidl_generator_py.so
+[0.283s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv
+[0.283s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv/__init__.py
+[0.283s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv/_mi_servicio_s.c
+[0.283s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv/_mi_servicio.py
+[0.283s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.283s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/_interface_t1_s.ep.rosidl_typesupport_c.c
+[0.283s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/_interface_t1_s.ep.rosidl_typesupport_introspection_c.c
+[0.283s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/_interface_t1_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.283s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.283s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.305s] Listing '/home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1'...
+[0.305s] Listing '/home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv'...
+[0.308s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.308s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.308s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_generator_py.so
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/srv/MiServicio.idl
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/srv/MiServicio.srv
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/srv/MiServicio_Request.msg
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/srv/MiServicio_Response.msg
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/ament_index/resource_index/package_run_dependencies/interface_t1
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/ament_index/resource_index/parent_prefix_path/interface_t1
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/ament_prefix_path.sh
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/ament_prefix_path.dsv
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/path.sh
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/path.dsv
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/local_setup.bash
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/local_setup.sh
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/local_setup.zsh
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/local_setup.dsv
+[0.309s] -- Installing: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/package.dsv
+[0.309s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/ament_index/resource_index/packages/interface_t1
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_generator_cExport.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_generator_cExport-noconfig.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_typesupport_fastrtps_cExport.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_generator_cppExport.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_introspection_cExport.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_cExport.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_cExport-noconfig.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_introspection_cppExport.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_cppExport.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_cppExport-noconfig.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_generator_pyExport.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_generator_pyExport-noconfig.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/rosidl_cmake-extras.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/ament_cmake_export_libraries-extras.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/ament_cmake_export_targets-extras.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1Config.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1Config-version.cmake
+[0.310s] -- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/package.xml
+[0.311s] Invoked command in '/home/juan/ros2_ws/build/interface_t1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotica_proyecto/install/my_taller1:/opt/ros/humble /usr/bin/cmake --install /home/juan/ros2_ws/build/interface_t1

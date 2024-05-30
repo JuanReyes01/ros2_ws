@@ -1,0 +1,11 @@
+[0.008s] Invoking command in '/home/juan/ros2_ws/build/interface_t1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/ros2_ws/install/my_taller1:/home/juan/Robotica_proyecto/install/my_taller1:/opt/ros/humble /usr/bin/cmake --build /home/juan/ros2_ws/build/interface_t1 -- -j20 -l20
+[0.040s] [  3%] Built target interface_t1__cpp
+[0.040s] failed to create symbolic link '/home/juan/ros2_ws/build/interface_t1/ament_cmake_python/interface_t1/interface_t1' because existing path cannot be removed: Is a directory
+[0.040s] [ 12%] Built target interface_t1__rosidl_generator_c
+[0.040s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_interface_t1.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_interface_t1] Error 1
+[0.040s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_interface_t1.dir/all] Error 2
+[0.040s] gmake[1]: *** Waiting for unfinished jobs....
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target interface_t1__rosidl_typesupport_cpp[0m
+[0.055s] [ 22%] Built target interface_t1__rosidl_typesupport_cpp
+[0.056s] gmake: *** [Makefile:146: all] Error 2
+[0.058s] Invoked command in '/home/juan/ros2_ws/build/interface_t1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/ros2_ws/install/my_taller1:/home/juan/Robotica_proyecto/install/my_taller1:/opt/ros/humble /usr/bin/cmake --build /home/juan/ros2_ws/build/interface_t1 -- -j20 -l20

@@ -1,0 +1,5 @@
+  File "/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/Servicio.py", line 99
+    print (len(10)))
+                   ^
+SyntaxError: unmatched ')'
+

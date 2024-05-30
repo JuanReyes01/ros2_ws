@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interface_t1/srv/MiServicio.srv
+// generated code does not contain a copyright notice
+
+
+module interface_t1 {
+  module srv {
+    @verbatim (language="comment", text=
+      "mi_paquete/srv/MiServicio.srv")
+    struct MiServicio_Request {
+      string ruta;
+    };
+    struct MiServicio_Response {
+      boolean confirmacion;
+    };
+  };
+};

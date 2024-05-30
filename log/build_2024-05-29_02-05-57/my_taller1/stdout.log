@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/my_taller1/my_taller1.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_taller1/my_taller1.egg-info/dependency_links.txt
+writing entry points to ../../build/my_taller1/my_taller1.egg-info/entry_points.txt
+writing requirements to ../../build/my_taller1/my_taller1.egg-info/requires.txt
+writing top-level names to ../../build/my_taller1/my_taller1.egg-info/top_level.txt
+reading manifest file '../../build/my_taller1/my_taller1.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_taller1/my_taller1.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_taller1/laser_information.py -> /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1
+running install
+running install_lib
+copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/laser_information.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1
+byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/laser_information.py to laser_information.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/my_taller1/my_taller1.egg-info to /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client_p1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+Installing laser_info script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+Installing laser_visualization script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+Installing nodo1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+Installing serviciot_p1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+Installing turtle_bot_teleop script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1
+writing list of installed files to '/home/juan/ros2_ws/build/my_taller1/install.log'

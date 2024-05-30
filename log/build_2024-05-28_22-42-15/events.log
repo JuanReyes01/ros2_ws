@@ -1,0 +1,267 @@
+[0.000000] (-) TimerEvent: {}
+[0.000233] (interface_t1) JobQueued: {'identifier': 'interface_t1', 'dependencies': OrderedDict()}
+[0.000254] (my_taller1) JobQueued: {'identifier': 'my_taller1', 'dependencies': OrderedDict([('interface_t1', '/home/juan/ros2_ws/install/interface_t1')])}
+[0.000270] (interface_t1) JobStarted: {'identifier': 'interface_t1'}
+[0.005119] (interface_t1) JobProgress: {'identifier': 'interface_t1', 'progress': 'cmake'}
+[0.005398] (interface_t1) JobProgress: {'identifier': 'interface_t1', 'progress': 'build'}
+[0.005749] (interface_t1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/juan/ros2_ws/build/interface_t1', '--clean-first', '--', '-j20', '-l20'], 'cwd': '/home/juan/ros2_ws/build/interface_t1', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'juan'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/juan/ros2_ws/install/interface_t1/lib:/home/juan/Robotica_proyecto/install/interface_t1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/juan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1649'), ('SYSTEMD_EXEC_PID', '1994'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5826'), ('COLCON_PREFIX_PATH', '/home/juan/ros2_ws/install:/home/juan/Robotica_proyecto/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'juan'), ('JOURNAL_STREAM', '8:42615'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'juan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/juan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/juan-Ubuntu:@/tmp/.ICE-unix/1970,unix/juan-Ubuntu:/tmp/.ICE-unix/1970'), ('INVOCATION_ID', '4525cccdc29b497ca92b2e2a7b90b517'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/juan/ros2_ws/install/my_taller1:/home/juan/ros2_ws/install/interface_t1:/home/juan/Robotica_proyecto/install/my_taller1:/home/juan/Robotica_proyecto/install/interface_t1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:0e2e6d3f-de84-4869-a199-1bc6c831f25f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/juan/ros2_ws/build/interface_t1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages:/home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages:/home/juan/Robotica_proyecto/install/my_taller1/lib/python3.10/site-packages:/home/juan/Robotica_proyecto/install/interface_t1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/juan/ros2_ws/install/interface_t1:/home/juan/Robotica_proyecto/install/interface_t1:/home/juan/ros2_ws/install/my_taller1:/home/juan/Robotica_proyecto/install/my_taller1:/opt/ros/humble')]), 'shell': False}
+[0.099667] (-) TimerEvent: {}
+[0.200042] (-) TimerEvent: {}
+[0.202217] (interface_t1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.289677] (interface_t1) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.293976] (interface_t1) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.300210] (-) TimerEvent: {}
+[0.309988] (interface_t1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.311511] (interface_t1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.315337] (interface_t1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.322576] (interface_t1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.332846] (interface_t1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400376] (-) TimerEvent: {}
+[0.408061] (interface_t1) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.500560] (-) TimerEvent: {}
+[0.595034] (interface_t1) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600630] (-) TimerEvent: {}
+[0.700933] (-) TimerEvent: {}
+[0.801358] (-) TimerEvent: {}
+[0.860960] (interface_t1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901440] (-) TimerEvent: {}
+[0.970807] (interface_t1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.989374] (interface_t1) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.001517] (-) TimerEvent: {}
+[1.010608] (interface_t1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.010739] (interface_t1) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.010819] (interface_t1) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.038374] (interface_t1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.047471] (interface_t1) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.047853] (interface_t1) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.047935] (interface_t1) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.048636] (interface_t1) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.049771] (interface_t1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.050493] (interface_t1) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.054364] (interface_t1) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.054453] (interface_t1) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.055102] (interface_t1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.056531] (interface_t1) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.074191] (interface_t1) StdoutLine: {'line': b'-- Generating done\n'}
+[1.075629] (interface_t1) StdoutLine: {'line': b'-- Build files have been written to: /home/juan/ros2_ws/build/interface_t1\n'}
+[1.091687] (interface_t1) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.097902] (interface_t1) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.101626] (-) TimerEvent: {}
+[1.102444] (interface_t1) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_interface_t1\n'}
+[1.201816] (-) TimerEvent: {}
+[1.242335] (interface_t1) StdoutLine: {'line': b'running egg_info\n'}
+[1.242586] (interface_t1) StdoutLine: {'line': b'creating interface_t1.egg-info\n'}
+[1.242791] (interface_t1) StdoutLine: {'line': b'writing interface_t1.egg-info/PKG-INFO\n'}
+[1.242871] (interface_t1) StdoutLine: {'line': b'writing dependency_links to interface_t1.egg-info/dependency_links.txt\n'}
+[1.243027] (interface_t1) StdoutLine: {'line': b'writing top-level names to interface_t1.egg-info/top_level.txt\n'}
+[1.243167] (interface_t1) StdoutLine: {'line': b"writing manifest file 'interface_t1.egg-info/SOURCES.txt'\n"}
+[1.244070] (interface_t1) StdoutLine: {'line': b"reading manifest file 'interface_t1.egg-info/SOURCES.txt'\n"}
+[1.244294] (interface_t1) StdoutLine: {'line': b"writing manifest file 'interface_t1.egg-info/SOURCES.txt'\n"}
+[1.261411] (interface_t1) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_interface_t1_egg\n'}
+[1.263359] (interface_t1) StdoutLine: {'line': b'[  6%] Built target interface_t1__cpp\n'}
+[1.264414] (interface_t1) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/interface_t1__rosidl_generator_c.dir/rosidl_generator_c/interface_t1/srv/detail/mi_servicio__functions.c.o\x1b[0m\n'}
+[1.269269] (interface_t1) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.269661] (interface_t1) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.269744] (interface_t1) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.301325] (interface_t1) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libinterface_t1__rosidl_generator_c.so\x1b[0m\n'}
+[1.302031] (-) TimerEvent: {}
+[1.325525] (interface_t1) StdoutLine: {'line': b'[ 22%] Built target interface_t1__rosidl_generator_c\n'}
+[1.332455] (interface_t1) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.332593] (interface_t1) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.334608] (interface_t1) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.402258] (-) TimerEvent: {}
+[1.414795] (interface_t1) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interface_t1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_t1/srv/mi_servicio__type_support.cpp.o\x1b[0m\n'}
+[1.426955] (interface_t1) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interface_t1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_t1/srv/detail/mi_servicio__type_support.cpp.o\x1b[0m\n'}
+[1.434661] (interface_t1) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interface_t1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_t1/srv/detail/dds_fastrtps/mi_servicio__type_support.cpp.o\x1b[0m\n'}
+[1.477613] (interface_t1) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/interface_t1__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_t1/srv/mi_servicio__type_support.cpp.o\x1b[0m\n'}
+[1.495693] (interface_t1) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/interface_t1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_t1/srv/detail/mi_servicio__type_support.c.o\x1b[0m\n'}
+[1.498388] (interface_t1) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/interface_t1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_t1/srv/detail/mi_servicio__type_support_c.cpp.o\x1b[0m\n'}
+[1.502340] (-) TimerEvent: {}
+[1.508138] (interface_t1) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_t1__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.518311] (interface_t1) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libinterface_t1__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.535763] (interface_t1) StdoutLine: {'line': b'[ 58%] Built target interface_t1__rosidl_typesupport_c\n'}
+[1.538369] (interface_t1) StdoutLine: {'line': b'[ 58%] Built target interface_t1__rosidl_typesupport_introspection_c\n'}
+[1.602584] (-) TimerEvent: {}
+[1.619190] (interface_t1) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_t1__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.646090] (interface_t1) StdoutLine: {'line': b'[ 61%] Built target interface_t1__rosidl_typesupport_cpp\n'}
+[1.676846] (interface_t1) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_t1__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.698595] (interface_t1) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_t1__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.700237] (interface_t1) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_t1__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.702809] (-) TimerEvent: {}
+[1.717476] (interface_t1) StdoutLine: {'line': b'[ 70%] Built target interface_t1__rosidl_typesupport_introspection_cpp\n'}
+[1.745607] (interface_t1) StdoutLine: {'line': b'[ 70%] Built target interface_t1__rosidl_typesupport_fastrtps_cpp\n'}
+[1.746723] (interface_t1) StdoutLine: {'line': b'[ 70%] Built target interface_t1__rosidl_typesupport_fastrtps_c\n'}
+[1.760473] (interface_t1) StdoutLine: {'line': b'[ 70%] Built target interface_t1\n'}
+[1.774971] (interface_t1) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.803033] (-) TimerEvent: {}
+[1.903444] (-) TimerEvent: {}
+[1.998114] (interface_t1) StdoutLine: {'line': b'[ 74%] Built target interface_t1__py\n'}
+[2.003606] (-) TimerEvent: {}
+[2.010744] (interface_t1) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/interface_t1__rosidl_generator_py.dir/rosidl_generator_py/interface_t1/srv/_mi_servicio_s.c.o\x1b[0m\n'}
+[2.100148] (interface_t1) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_t1/libinterface_t1__rosidl_generator_py.so\x1b[0m\n'}
+[2.103786] (-) TimerEvent: {}
+[2.131201] (interface_t1) StdoutLine: {'line': b'[ 80%] Built target interface_t1__rosidl_generator_py\n'}
+[2.143987] (interface_t1) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/interface_t1__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface_t1/_interface_t1_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.144168] (interface_t1) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interface_t1__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface_t1/_interface_t1_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.144371] (interface_t1) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interface_t1__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface_t1/_interface_t1_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.203991] (-) TimerEvent: {}
+[2.205179] (interface_t1) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_t1/interface_t1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.205293] (interface_t1) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_t1/interface_t1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.205936] (interface_t1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_t1/interface_t1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.230071] (interface_t1) StdoutLine: {'line': b'[100%] Built target interface_t1__rosidl_typesupport_c__pyext\n'}
+[2.230358] (interface_t1) StdoutLine: {'line': b'[100%] Built target interface_t1__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.230918] (interface_t1) StdoutLine: {'line': b'[100%] Built target interface_t1__rosidl_typesupport_introspection_c__pyext\n'}
+[2.239517] (interface_t1) CommandEnded: {'returncode': 0}
+[2.302862] (interface_t1) JobProgress: {'identifier': 'interface_t1', 'progress': 'install'}
+[2.304182] (-) TimerEvent: {}
+[2.312689] (interface_t1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/juan/ros2_ws/build/interface_t1'], 'cwd': '/home/juan/ros2_ws/build/interface_t1', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'juan'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/juan/ros2_ws/install/interface_t1/lib:/home/juan/Robotica_proyecto/install/interface_t1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/juan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1649'), ('SYSTEMD_EXEC_PID', '1994'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5826'), ('COLCON_PREFIX_PATH', '/home/juan/ros2_ws/install:/home/juan/Robotica_proyecto/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'juan'), ('JOURNAL_STREAM', '8:42615'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'juan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/juan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/juan-Ubuntu:@/tmp/.ICE-unix/1970,unix/juan-Ubuntu:/tmp/.ICE-unix/1970'), ('INVOCATION_ID', '4525cccdc29b497ca92b2e2a7b90b517'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/juan/ros2_ws/install/my_taller1:/home/juan/ros2_ws/install/interface_t1:/home/juan/Robotica_proyecto/install/my_taller1:/home/juan/Robotica_proyecto/install/interface_t1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:0e2e6d3f-de84-4869-a199-1bc6c831f25f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/juan/ros2_ws/build/interface_t1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages:/home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages:/home/juan/Robotica_proyecto/install/my_taller1/lib/python3.10/site-packages:/home/juan/Robotica_proyecto/install/interface_t1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/juan/ros2_ws/install/interface_t1:/home/juan/Robotica_proyecto/install/interface_t1:/home/juan/ros2_ws/install/my_taller1:/home/juan/Robotica_proyecto/install/my_taller1:/opt/ros/humble')]), 'shell': False}
+[2.321164] (interface_t1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.321822] (interface_t1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.321961] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/ament_index/resource_index/rosidl_interfaces/interface_t1\n'}
+[2.331463] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.340748] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__functions.h\n'}
+[2.350114] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__struct.h\n'}
+[2.359286] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__type_support.h\n'}
+[2.368541] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/mi_servicio.h\n'}
+[2.377622] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/library_path.sh\n'}
+[2.386498] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/library_path.dsv\n'}
+[2.395786] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.404285] (-) TimerEvent: {}
+[2.404448] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__rosidl_typesupport_fastrtps_c.h\n'}
+[2.413983] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__builder.hpp\n'}
+[2.423137] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__struct.hpp\n'}
+[2.432091] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__traits.hpp\n'}
+[2.441283] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/mi_servicio.hpp\n'}
+[2.450732] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.459597] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.468463] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.476825] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__rosidl_typesupport_introspection_c.h\n'}
+[2.485455] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/include/interface_t1/interface_t1/srv/detail/mi_servicio__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.493559] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/pythonpath.sh\n'}
+[2.502143] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/pythonpath.dsv\n'}
+[2.504506] (-) TimerEvent: {}
+[2.510464] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.519559] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.528519] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.537443] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.547241] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/__init__.py\n'}
+[2.556384] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/_interface_t1_s.ep.rosidl_typesupport_c.c\n'}
+[2.565489] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/_interface_t1_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.574570] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/_interface_t1_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.583389] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.592072] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.601162] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.604737] (-) TimerEvent: {}
+[2.610367] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/libinterface_t1__rosidl_generator_py.so\n'}
+[2.619690] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv/__init__.py\n'}
+[2.628792] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv/_mi_servicio.py\n'}
+[2.637866] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv/_mi_servicio_s.c\n'}
+[2.646975] (interface_t1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.647354] (interface_t1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.647507] (interface_t1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/interface_t1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.647620] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/srv/MiServicio.idl\n'}
+[2.656868] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/srv/MiServicio.srv\n'}
+[2.666197] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/srv/MiServicio_Request.msg\n'}
+[2.675328] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/srv/MiServicio_Response.msg\n'}
+[2.684450] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/ament_index/resource_index/package_run_dependencies/interface_t1\n'}
+[2.693411] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/ament_index/resource_index/parent_prefix_path/interface_t1\n'}
+[2.700757] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/ament_prefix_path.sh\n'}
+[2.704952] (-) TimerEvent: {}
+[2.707480] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/ament_prefix_path.dsv\n'}
+[2.715480] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/path.sh\n'}
+[2.722279] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/environment/path.dsv\n'}
+[2.729983] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/local_setup.bash\n'}
+[2.736955] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/local_setup.sh\n'}
+[2.745070] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/local_setup.zsh\n'}
+[2.752733] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/local_setup.dsv\n'}
+[2.761240] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/package.dsv\n'}
+[2.769621] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/ament_index/resource_index/packages/interface_t1\n'}
+[2.778859] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/rosidl_cmake-extras.cmake\n'}
+[2.787890] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.797370] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.805048] (-) TimerEvent: {}
+[2.806983] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.816734] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.826552] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.835911] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.845609] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1Config.cmake\n'}
+[2.855139] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1Config-version.cmake\n'}
+[2.863888] (interface_t1) StdoutLine: {'line': b'-- Symlinking: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/package.xml\n'}
+[2.872300] (interface_t1) StdoutLine: {'line': b'-- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_generator_c.so\n'}
+[2.872651] (interface_t1) StdoutLine: {'line': b'-- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_generator_c.so" to ""\n'}
+[2.872768] (interface_t1) StdoutLine: {'line': b'-- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_fastrtps_c.so\n'}
+[2.872834] (interface_t1) StdoutLine: {'line': b'-- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.872913] (interface_t1) StdoutLine: {'line': b'-- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.873078] (interface_t1) StdoutLine: {'line': b'-- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.873216] (interface_t1) StdoutLine: {'line': b'-- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_introspection_c.so\n'}
+[2.873944] (interface_t1) StdoutLine: {'line': b'-- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.874106] (interface_t1) StdoutLine: {'line': b'-- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_c.so\n'}
+[2.874370] (interface_t1) StdoutLine: {'line': b'-- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_c.so" to ""\n'}
+[2.874558] (interface_t1) StdoutLine: {'line': b'-- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_introspection_cpp.so\n'}
+[2.874995] (interface_t1) StdoutLine: {'line': b'-- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.875173] (interface_t1) StdoutLine: {'line': b'-- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_cpp.so\n'}
+[2.875469] (interface_t1) StdoutLine: {'line': b'-- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_typesupport_cpp.so" to ""\n'}
+[2.903968] (interface_t1) StdoutLine: {'line': b"Listing '/home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1'...\n"}
+[2.904061] (interface_t1) StdoutLine: {'line': b"Compiling '/home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/__init__.py'...\n"}
+[2.904105] (interface_t1) StdoutLine: {'line': b"Listing '/home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv'...\n"}
+[2.904137] (interface_t1) StdoutLine: {'line': b"Compiling '/home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv/__init__.py'...\n"}
+[2.904166] (interface_t1) StdoutLine: {'line': b"Compiling '/home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages/interface_t1/srv/_mi_servicio.py'...\n"}
+[2.905267] (-) TimerEvent: {}
+[2.906896] (interface_t1) StdoutLine: {'line': b'-- Installing: /home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_generator_py.so\n'}
+[2.907009] (interface_t1) StdoutLine: {'line': b'-- Set runtime path of "/home/juan/ros2_ws/install/interface_t1/lib/libinterface_t1__rosidl_generator_py.so" to ""\n'}
+[2.907180] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_generator_cExport.cmake\n'}
+[2.907290] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.907356] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.907395] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.907427] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_generator_cppExport.cmake\n'}
+[2.907480] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.907522] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.907565] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.907609] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.907677] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_cExport.cmake\n'}
+[2.907757] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.907809] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.907854] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.907897] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_cppExport.cmake\n'}
+[2.907939] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/interface_t1__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.908010] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_generator_pyExport.cmake\n'}
+[2.908051] (interface_t1) StdoutLine: {'line': b'-- Up-to-date: /home/juan/ros2_ws/install/interface_t1/share/interface_t1/cmake/export_interface_t1__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.910483] (interface_t1) CommandEnded: {'returncode': 0}
+[2.992421] (interface_t1) JobEnded: {'identifier': 'interface_t1', 'rc': 0}
+[2.993504] (my_taller1) JobStarted: {'identifier': 'my_taller1'}
+[3.005346] (-) TimerEvent: {}
+[3.105512] (-) TimerEvent: {}
+[3.205730] (-) TimerEvent: {}
+[3.305950] (-) TimerEvent: {}
+[3.335571] (my_taller1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_taller1', 'build', '--build-base', '/home/juan/ros2_ws/build/my_taller1/build', 'install', '--record', '/home/juan/ros2_ws/build/my_taller1/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/juan/ros2_ws/src/my_taller1', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'juan', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/juan/ros2_ws/install/interface_t1/lib:/home/juan/Robotica_proyecto/install/interface_t1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/juan', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'MANAGERPID': '1649', 'SYSTEMD_EXEC_PID': '1994', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5826', 'COLCON_PREFIX_PATH': '/home/juan/ros2_ws/install:/home/juan/Robotica_proyecto/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'juan', 'JOURNAL_STREAM': '8:42615', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/juan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juan-Ubuntu:@/tmp/.ICE-unix/1970,unix/juan-Ubuntu:/tmp/.ICE-unix/1970', 'INVOCATION_ID': '4525cccdc29b497ca92b2e2a7b90b517', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/juan/ros2_ws/install/my_taller1:/home/juan/ros2_ws/install/interface_t1:/home/juan/Robotica_proyecto/install/my_taller1:/home/juan/Robotica_proyecto/install/interface_t1:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:0e2e6d3f-de84-4869-a199-1bc6c831f25f', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/juan/ros2_ws/build/my_taller1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/juan/ros2_ws/build/my_taller1/prefix_override:/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages:/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages:/home/juan/ros2_ws/install/interface_t1/local/lib/python3.10/dist-packages:/home/juan/Robotica_proyecto/install/my_taller1/lib/python3.10/site-packages:/home/juan/Robotica_proyecto/install/interface_t1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/juan/ros2_ws/install/interface_t1:/home/juan/Robotica_proyecto/install/interface_t1'}, 'shell': False}
+[3.406132] (-) TimerEvent: {}
+[3.469804] (my_taller1) StdoutLine: {'line': b'running egg_info\n'}
+[3.470421] (my_taller1) StdoutLine: {'line': b'writing ../../build/my_taller1/my_taller1.egg-info/PKG-INFO\n'}
+[3.470499] (my_taller1) StdoutLine: {'line': b'writing dependency_links to ../../build/my_taller1/my_taller1.egg-info/dependency_links.txt\n'}
+[3.470536] (my_taller1) StdoutLine: {'line': b'writing entry points to ../../build/my_taller1/my_taller1.egg-info/entry_points.txt\n'}
+[3.470568] (my_taller1) StdoutLine: {'line': b'writing requirements to ../../build/my_taller1/my_taller1.egg-info/requires.txt\n'}
+[3.470714] (my_taller1) StdoutLine: {'line': b'writing top-level names to ../../build/my_taller1/my_taller1.egg-info/top_level.txt\n'}
+[3.471684] (my_taller1) StdoutLine: {'line': b"reading manifest file '../../build/my_taller1/my_taller1.egg-info/SOURCES.txt'\n"}
+[3.472196] (my_taller1) StdoutLine: {'line': b"writing manifest file '../../build/my_taller1/my_taller1.egg-info/SOURCES.txt'\n"}
+[3.472272] (my_taller1) StdoutLine: {'line': b'running build\n'}
+[3.472310] (my_taller1) StdoutLine: {'line': b'running build_py\n'}
+[3.472436] (my_taller1) StdoutLine: {'line': b'copying my_taller1/Servicio.py -> /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1\n'}
+[3.472608] (my_taller1) StdoutLine: {'line': b'running install\n'}
+[3.472698] (my_taller1) StdoutLine: {'line': b'running install_lib\n'}
+[3.473277] (my_taller1) StdoutLine: {'line': b'copying /home/juan/ros2_ws/build/my_taller1/build/lib/my_taller1/Servicio.py -> /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1\n'}
+[3.473635] (my_taller1) StdoutLine: {'line': b'byte-compiling /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1/Servicio.py to Servicio.cpython-310.pyc\n'}
+[3.474497] (my_taller1) StdoutLine: {'line': b'running install_data\n'}
+[3.474570] (my_taller1) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.475448] (my_taller1) StdoutLine: {'line': b"removing '/home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.475527] (my_taller1) StdoutLine: {'line': b'Copying ../../build/my_taller1/my_taller1.egg-info to /home/juan/ros2_ws/install/my_taller1/lib/python3.10/site-packages/my_taller1-0.0.0-py3.10.egg-info\n'}
+[3.475917] (my_taller1) StdoutLine: {'line': b'running install_scripts\n'}
+[3.488844] (my_taller1) StdoutLine: {'line': b'Installing client_p1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1\n'}
+[3.488943] (my_taller1) StdoutLine: {'line': b'Installing laser_info script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1\n'}
+[3.488979] (my_taller1) StdoutLine: {'line': b'Installing laser_visualization script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1\n'}
+[3.489010] (my_taller1) StdoutLine: {'line': b'Installing nodo1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1\n'}
+[3.489038] (my_taller1) StdoutLine: {'line': b'Installing serviciot_p1 script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1\n'}
+[3.489067] (my_taller1) StdoutLine: {'line': b'Installing turtle_bot_teleop script to /home/juan/ros2_ws/install/my_taller1/lib/my_taller1\n'}
+[3.489212] (my_taller1) StdoutLine: {'line': b"writing list of installed files to '/home/juan/ros2_ws/build/my_taller1/install.log'\n"}
+[3.501978] (my_taller1) CommandEnded: {'returncode': 0}
+[3.505225] (my_taller1) JobEnded: {'identifier': 'my_taller1', 'rc': 0}
+[3.505594] (-) EventReactorShutdown: {}

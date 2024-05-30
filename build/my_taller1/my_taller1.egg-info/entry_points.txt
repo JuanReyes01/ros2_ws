@@ -1,0 +1,8 @@
+[console_scripts]
+client_p1 = my_taller1.MiCliente:main
+laser_info = my_taller1.laser_information:main
+laser_visualization = my_taller1.laser_visualization:main
+nodo1 = my_taller1.nodo1:main
+serviciot_p1 = my_taller1.Servicio:main
+turtle_bot_teleop = my_taller1.keyboard_teleop_hold:main
+
